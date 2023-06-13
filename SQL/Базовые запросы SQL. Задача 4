@@ -1,0 +1,4 @@
+select *
+from netflix
+where title in ('Joker','Judy','Once Upon a Time in... Hollywood','Marriage Story')
+    and cast_names in ('Joaquin Phoenix','Renée Zellweger','Brad Pitt','Laura Dern')
