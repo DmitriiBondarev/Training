@@ -1,0 +1,4 @@
+select *
+from netflix
+where cast_names ~ 'Renée Zellweger'
+    and type = 'TV Show'
