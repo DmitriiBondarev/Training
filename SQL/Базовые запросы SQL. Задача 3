@@ -1,8 +1,0 @@
-select *
-from netflix
-where type = 'Movie'
-    and director in ('Sam Mendes','Todd Phillips','Quentin Tarantino','Martin Scorsese','Bong Joon Ho')
-    and release_year >= '2010'
-
-
--- 'Sam Mendes' 'Todd Phillips' 'Quentin Tarantino' 'Martin Scorsese' 'Bong Joon Ho'
