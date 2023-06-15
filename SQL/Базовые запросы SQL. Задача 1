@@ -1,4 +1,0 @@
-select *
-from netflix
-where cast_names ~ 'Joaquin Phoenix'
-    and type = 'Movie'
